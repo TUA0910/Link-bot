@@ -24,12 +24,7 @@ bot.on("message", message => {
     } else
     if(command === 'website') {
         message.channel.send('https://www.frederiks-hygge-server.net/')
-    } else
-    if(command=== 'commands') {
-        message.channel.send('`link!invite`')
-    } else (
-        message.channel.send('`link!website`')
-    )
+    }
 })
 
 bot.login(token);
